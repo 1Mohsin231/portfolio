@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <defs>
+    <linearGradient id="pagoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Geometric Analytics Emblem -->
+  <rect x="10" y="10" width="40" height="40" rx="10" fill="#064e3b" fill-opacity="0.4" stroke="url(#pagoGrad)" stroke-width="2" />
+  <path d="M20 38 L27 28 L34 33 L42 20" stroke="url(#pagoGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="42" cy="20" r="3" fill="#34d399" />
+  
+  <!-- Typography -->
+  <text x="62" y="32" font-family="'JetBrains Mono', 'Inter', monospace" font-size="16" font-weight="900" fill="#f8fafc" letter-spacing="1">PAGO</text>
+  <text x="62" y="46" font-family="'JetBrains Mono', 'Inter', monospace" font-size="10" font-weight="600" fill="#10b981" letter-spacing="2">ANALYTICS</text>
+</svg>
+

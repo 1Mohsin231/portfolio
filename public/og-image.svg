@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" fill="none">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="ogGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#ogBg)" />
+
+  <!-- Cyber Grid -->
+  <path d="M 0 100 H 1200 M 0 200 H 1200 M 0 300 H 1200 M 0 400 H 1200 M 0 500 H 1200" stroke="#1e293b" stroke-opacity="0.3" stroke-width="1" />
+  <path d="M 150 0 V 630 M 300 0 V 630 M 450 0 V 630 M 600 0 V 630 M 750 0 V 630 M 900 0 V 630 M 1050 0 V 630" stroke="#1e293b" stroke-opacity="0.3" stroke-width="1" />
+
+  <!-- Ambient Glow Blobs -->
+  <circle cx="200" cy="180" r="280" fill="#10b981" fill-opacity="0.08" filter="blur(80px)" />
+  <circle cx="1000" cy="450" r="300" fill="#06b6d4" fill-opacity="0.08" filter="blur(80px)" />
+
+  <!-- Hexagon Monogram Logo on Left -->
+  <g transform="translate(100, 195)">
+    <polygon points="120,10 220,68 220,182 120,240 20,182 20,68" fill="#0f172a" stroke="url(#ogGlow)" stroke-width="8" />
+    <path d="M70 160 L70 90 L95 125 L120 95 L120 160" fill="none" stroke="url(#ogGlow)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M120 90 H150 C162 90 170 98 170 108 C170 118 162 125 150 125 H120" fill="none" stroke="url(#ogGlow)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M120 125 H155 C167 125 175 133 175 143 C175 153 167 160 155 160 H120" fill="none" stroke="url(#ogGlow)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography Content -->
+  <g transform="translate(420, 180)">
+    <!-- Status Pill -->
+    <rect x="0" y="0" width="340" height="38" rx="19" fill="#064e3b" fill-opacity="0.5" stroke="#10b981" stroke-width="1.5" />
+    <circle cx="20" cy="19" r="5" fill="#10b981" />
+    <text x="36" y="24" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#34d399" letter-spacing="1.5">ENTERPRISE COMMAND CENTER</text>
+
+    <!-- Name Title -->
+    <text x="0" y="110" font-family="'Inter', sans-serif" font-size="64" font-weight="900" fill="#f8fafc" letter-spacing="-1.5">MOHSIN BABA</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="155" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700" fill="#10b981" letter-spacing="2">SENIOR FRONTEND &amp; FULL-STACK ARCHITECT</text>
+
+    <!-- Summary bullets -->
+    <text x="0" y="215" font-family="'Inter', sans-serif" font-size="18" fill="#94a3b8">3+ Years Experience • MERN Stack &amp; React Native • Microservices Architecture</text>
+    <text x="0" y="245" font-family="'Inter', sans-serif" font-size="18" fill="#94a3b8">Proven 10× Traffic Surge Scalability • -40% Latency Reduction • 99.9% SLA</text>
+
+    <!-- Contact line -->
+    <text x="0" y="300" font-family="'JetBrains Mono', monospace" font-size="15" fill="#38bdf8">1mohsinbaba@gmail.com  |  +91 63604 63695  |  Hyderabad, India</text>
+  </g>
+
+  <!-- Bottom Border Glow -->
+  <rect x="0" y="622" width="1200" height="8" fill="url(#ogGlow)" />
+</svg>
+
